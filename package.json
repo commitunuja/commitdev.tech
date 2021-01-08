@@ -1,8 +1,8 @@
 {
-  "name": "nuxtjs",
+  "name": "CommitDeveloper",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
+  "description": "A developer community based on Probolinggo",
+  "author": "DzunN86",
   "private": true,
   "scripts": {
     "dev": "nuxt",
