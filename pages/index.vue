@@ -3,21 +3,21 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtjs
+        Commit Developer
       </h1>
       <h2 class="subtitle">
-        My astonishing Nuxt.js project
+        A developer community based on Probolinggo
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://twitter.com/commit_dev"
           target="_blank"
           class="button--green"
         >
-          Documentation
+          Twitter
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/commitunuja"
           target="_blank"
           class="button--grey"
         >
