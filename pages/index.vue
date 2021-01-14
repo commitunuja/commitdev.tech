@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <img src="~/assets/logo.png" alt="" class="image-1">
       <h1 class="title">
-        Commit Developer
+        <b class="commit-c">#CommIT</b> Developers
       </h1>
       <h2 class="subtitle">
-        A developer community based on Probolinggo
+        A developer community based on <span class="highlight-text">Probolinggo</span>
       </h2>
       <div class="links">
         <a
@@ -39,8 +39,27 @@ export default {
 </script>
 
 <style>
+/* 
+.image-1{
+  width: 400px;
+} */
+
+.highlight-text{
+  font-weight: 500;
+  background-image: linear-gradient(98deg,#ecc02d,#ecc02d,#ecc02d);
+    border-radius: 35% 35% 67% 30%;
+}
+
+.commit-c{
+  background: linear-gradient( to bottom,transparent 35%,#ecc02d 35%,#ecc02d 75%,transparent 75% );
+}
+
+body{
+  background-color: rgb(9, 173, 152);
+}
+
 .container {
-  margin: 0 auto;
+  
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -54,14 +73,14 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #000000;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #000000;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

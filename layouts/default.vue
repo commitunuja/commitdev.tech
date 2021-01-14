@@ -27,22 +27,22 @@ html {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #52A2F3;
-  color: #52A2F3;
+  border: 1px solid#ecc02d;
+  color: #ecc02d;
   text-decoration: none;
   padding: 10px 30px;
 }
 
 .button--green:hover {
   color: #fff;
-  background-color: #52A2F3;
+  background-color:  #ecc02d;
 }
 
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid#ecc02d;
+  color: #ecc02d;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -50,6 +50,6 @@ html {
 
 .button--grey:hover {
   color: #fff;
-  background-color: #35495e;
+  background-color:#ecc02d;
 }
 </style>
