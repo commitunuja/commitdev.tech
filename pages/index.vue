@@ -55,7 +55,7 @@ export default {
 }
 
 body{
-  background-color: rgb(9, 173, 152);
+  background-color: rgb(49,50,78);
 }
 
 .container {
